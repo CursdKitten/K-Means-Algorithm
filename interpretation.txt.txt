@@ -1,0 +1,67 @@
+1) In both datasets, both years seem to have a fairly strong inverse linear relationship or put simply, the lower the birth rate, the 
+higher the life expectancy and vice versa. This seems to suggest a causal relationship, however correlation does not neccessarily 
+equal causation and there are likely many factors at play here such as education, cultural norms, access to medical care etc. 
+
+On the whole, the life expectancy has increased and the birth rate has decreased for all countries from 1953 to 2008, most likely
+due to the advancements made in modern medicine and social norms surrounding having children changing over the decades. This can also 
+be seen when we see that the cluster with the lowest life expectancy (cluster 2) has both decreased in size, increased in mean life
+expectancy and decreased in mean birth rate over time. Countries have also jumped clusters in the 55 year timespan with some
+jumping up a cluster and others moving down. 
+
+Cluster 1 represents the countries with the highest life expectancy and lowest birth rate
+Cluster 2 represents the countries with the lowest life expectancy and highest birth rate
+Cluster 3 represents the countries in between
+
+Countries that joined a higher life expectancy bracket include (but are not limited to):
+- Albania (moved from cluster 3 to cluster 1)
+- Aruba (moved from cluster 3 to cluster 1)
+- Bahrain (moved from cluster 2 to cluster 1)
+- Belize (moved from cluster 3 to cluster 1)
+- China (moved from cluster 2 to cluster 1)
+- Costa Rica (moved from cluster 3 to cluster 1)
+
+Countries that have joined a lower life expectancy bracket include (but are not limited to):
+- Azerbaijan (moved from cluster 1 to cluster 3)
+- Democratic republic of Korea (moved from cluster 1 to cluster 3)
+- Jamaica (moved from cluster 1 to cluster 3)
+
+On the whole, there have mostly been improvements over the years with a few outliers.
+
+2) When we run the dataset for both years with 4 clusters instead of 3, we note the following:
+
+Cluster 1 represents the countries with the lowest life expectancy and highest birth rate
+Cluster 2 represents the countries with the highest life expectancy (but not the lowest birth rate)
+Cluster 3 represents the countries with the second lowest life expectancy, but the second lowest birth rate
+Cluster 4 represents the countries with the second highest life expectancy and the lowest birth rate
+
+This seems to suggest as stated above, that the two in fact do not have a causal relationship as the cluster with the highest
+life expectancy also has the second highest birth rate when we use 4 clusters.
+
+When we look at cluster 1 which has the lowest life expectancy, we see majority 1953 countries with a few 2008 countries including 
+Angola, Cameroon, Kenya, Rwanda etc. Possible reasons for the fact that these countries still have lower life expectancies include, but
+are not limited to:
+- Disease is a big factor in life expectancy rates. For example, many of these countries are situated in Africa which was hit the 
+  hardest in the world with regards to HIV/AIDS. This disease has claimed many lives in Africa and has contributed to the lower life 
+  expectancy as a result In the same way, Malaria has also contributed to the lower life expectancy.
+- Another factor is political/civil unrest. For example Rwanda's life expectancy was likely worsened by the genocide that they 
+  experienced or the continuous warfare experienced in Afghanistan.
+- Malnutrition/hunger is also a big factor with Chad being the most affected country in the world.
+
+It is however important to note that life expectancies in these countries have increased rather dramatically since 1953 (as we can
+see when we look at the 2008 data). The mean is however heavily skewed downward by the overwhelming 1953 data.
+
+
+When we look at cluster 2 which has the highest life expectancy, we see majority 2008 countries with a few 1953 countries including
+Canada, Iceland and Malta. Possible reasons for this include.
+- Access to healthcare. For example, in Canada health care is largely subsidised by the government meaning that citizens live longer
+  on the whole as their access to treatment is not necessarily based on their wealth which is not true for most countries.
+- Although it may sound trivial, diet can play a factor. For example, studies have shown that eating less red meat can lead
+  to longer life and the diets of most Icelanders consists mainly of fish and less meat.
+- Environmental facors such as clean air and water also play a part in why Canadians and Icelandic people have such a high 
+  life expectancy
+
+References:
+https://www.statista.com/statistics/269924/countries-most-affected-by-hunger-in-the-world-according-to-world-hunger-index/
+https://en.wikipedia.org/wiki/Afghanistan
+https://www.bbc.com/news/world-us-canada-39410236
+https://borgenproject.org/10-facts-about-life-expectancy-in-iceland/
